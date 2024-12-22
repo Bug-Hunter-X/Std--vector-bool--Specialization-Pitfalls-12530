@@ -1,0 +1,2 @@
+# std::vector<bool> Gotcha
+This repo demonstrates a common pitfall associated with using `std::vector<bool>` in C++.  The specialization of `std::vector<bool>` optimizes for memory usage, but this can lead to surprising and non-intuitive behavior if you expect it to act like a regular `std::vector` of any other type. The example code showcases this unexpected behavior and a safer alternative.
