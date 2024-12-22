@@ -1,0 +1,1 @@
+Using a `std::vector<char>` or `std::vector<int>` with each element representing a bool is a recommended approach, improving code clarity and avoiding potential issues arising from the specialization.
